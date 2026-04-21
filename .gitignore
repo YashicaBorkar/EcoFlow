@@ -1,0 +1,11 @@
+# Credentials and Secrets
+.env
+serviceAccountKey.json
+*.json
+!demo_data.csv  # Use '!' if you WANT to include specific JSON/CSV data
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
